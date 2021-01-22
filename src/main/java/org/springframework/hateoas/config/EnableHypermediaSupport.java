@@ -96,6 +96,11 @@ public @interface EnableHypermediaSupport {
 		 */
 		UBER(MediaTypes.UBER_JSON, "uber");
 
+		/**
+		 * HTML
+		 */
+		HTML(MediaType.TEXT_HTML, "html");
+
 		private final MediaType mediaTypes;
 		private final String localPackageName;
 
